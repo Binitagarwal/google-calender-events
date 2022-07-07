@@ -22,3 +22,5 @@ python manage.py migrate </code>
 
 2. /rest/v1/calendar/redirect
 	This endpoint is the redirected endpoint tht is opened after oauth step 1 is completed and  returns all the upcoming events for the chosen google account in the oauth step.
+
+    This endpoint can also be used by passing a valid state param to get calender events for the chosen google account.
